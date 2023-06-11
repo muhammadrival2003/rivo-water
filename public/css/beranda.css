@@ -1,0 +1,81 @@
+body{
+    background-color: #141432;
+}
+
+/* Header */
+h1{
+    font: 600 3.5rem Poppins, sans-serif; 
+    line-height: 1.2;
+    color: #cbcbd2;
+}
+
+h1 span{
+    color: #fb6262;
+}
+
+.btnHeader{
+    font: 600 1rem Poppins, sans-serif; 
+}
+
+.btnHeader1{
+    font: 300 1rem Poppins, sans-serif; 
+    color: #cbcbd2;
+}
+
+.imgHeader img{
+    border: solid 3px #4c4c6d;
+}
+
+.imgHeader h6{
+    font: 500 1.2rem Poppins, sans-serif;
+    color: #cbcbd2;
+}
+/* End Header */
+
+
+
+/* Tentang Produk */
+.tentang-produk{
+    margin-top: 150px;
+}
+
+.headline-tentang span{
+    color: #141432;
+    background-color: #fb6262;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+}
+
+h2{
+    font: 600 2.2rem Poppins, sans-serif; 
+    color: #cbcbd2;
+}
+
+.card{
+    background-color: #292952;
+    border: solid 1px #4c4c6d;
+}
+
+.card h5{
+    font: 600 1.5rem Poppins, sans-serif; 
+    color: #fff;
+}
+
+.card p{
+    font: 400 1rem Poppins, sans-serif; 
+    color: #707092;
+}
+
+/* .card p small{
+    color: #fb6262;
+} */
+
+.card .linkTentang{
+    color: #fb6262;
+}
+
+/* End Tentang Produk */

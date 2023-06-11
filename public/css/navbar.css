@@ -1,0 +1,12 @@
+.navbar-brand{
+    color: #cbcbd2;
+}
+
+.nav-link{
+    font: 400 1rem Poppins, sans-serif; 
+    color: #cbcbd2;
+}
+
+.nav-item .btn{
+    font: 600 1rem Poppins, sans-serif; 
+}
