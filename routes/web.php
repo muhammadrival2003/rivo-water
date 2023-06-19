@@ -13,9 +13,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get(
+    '/welcome',
+    function () {
+        return view('welcome');
+    }
+);
+
 Route::get('/', function () {
     return view('beranda', [
         "title" => "Beranda",
         "image" => "Klinik.jpg"
     ]);
 });
+
+Route::get('/login', function () {
+    return view('login', [
+        "title" => "Login",
+        "image" => "Klinik.jpg"
+    ]);
+});
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

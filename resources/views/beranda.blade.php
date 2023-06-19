@@ -83,10 +83,10 @@
 {{-- Button Beli sekarang --}}
 <div class="row mt-5">
     <div class="col-lg-4 d-flex justify-content-lg-start justify-content-center">
-        <a class="btnHeader btn btn-primary me-3 px-3 py-2 rounded-3 {{ ($title === 'Blog' ? 'active' : '') }}"
-            href="/blog">Beli Sekarang</a>
+        {{-- <a class="btnHeader btn btn-primary me-3 px-3 py-2 rounded-3 {{ ($title === 'Blog' ? 'active' : '') }}"
+            href="/blog">Beli Sekarang</a> --}}
         <a class="btnHeader1 btn border border-secondary px-3 py-2 rounded-3 {{ ($title === 'Blog' ? 'active' : '') }}"
-            href="/blog">Selengkapnya</a>
+            href="/blog"><i class="bi bi-bag"></i> Beli Sekarang</a>
     </div>
 </div>
 {{-- End Button Beli sekarang --}}
@@ -165,13 +165,13 @@
                     Pilih sesuai dengan kebutuhan anda
                 </p>
             </div>
-            {{--  d-flex flex-lg-wrap overflow-x-auto --}}
+            {{-- d-flex flex-lg-wrap overflow-x-auto --}}
             <div class="list-produk row">
                 <div class="col-lg-4 col-12">
                     <div class="card-item-outline bg-white d-flex flex-column position-relative overflow-hidden h-100">
                         <h2 class="price-title" style="color: #2e3a53;">Normal Water</h2>
                         <h2 class="price-value d-flex align-items-center">
-                            <span>Rp. 4.000</span>
+                            <span>Rp 4.000</span>
                         </h2>
                         <p class="price-caption">
                             Suitable for those of you<br />
@@ -187,7 +187,7 @@
                     <div class="card-item-outline bg-white d-flex flex-column position-relative overflow-hidden h-100">
                         <h2 class="price-title" style="color: #2e3a53;">Reverse Osmosis</h2>
                         <h2 class="price-value d-flex align-items-center">
-                            <span>Rp. 5.000</span>
+                            <span>Rp 5.000</span>
                         </h2>
                         <p class="price-caption">
                             Suitable for those of you<br />
@@ -210,10 +210,10 @@
                             Suitable to make your<br />
                             company grow rapidly
                         </p>
-                    <img src="img/Pekerja_depot.png" class="img-fluid" alt="">
-                    <button class="btn btn-outline d-flex justify-content-center align-items-center w-100">
-                        Gass Beli
-                    </button>
+                        <img src="img/Pekerja_depot.png" class="img-fluid" alt="">
+                        <button class="btn btn-outline d-flex justify-content-center align-items-center w-100">
+                            Gass Beli
+                        </button>
                     </div>
                 </div>
             </div>
@@ -221,4 +221,4 @@
     </div>
     {{-- End Produk --}}
 
-    @endsection
+@endsection

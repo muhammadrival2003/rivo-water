@@ -78,7 +78,7 @@
                 <a href="" class="footer-link" style="text-decoration: none">Licenses</a>
             </nav>
             <nav class="d-flex flex-lg-row flex-column align-items-center justify-content-center">
-                <p style="margin: 0">Copyright © 2021 Analystic Max</p>
+                <p style="margin: 0">Copyright © 2023 Muhammad Rival</p>
             </nav>
         </div>
     </div>

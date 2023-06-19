@@ -17,7 +17,7 @@
                     <a class="nav-link {{ ($title === 'Blog' ? 'active' : '') }}" href="/blog">Kontak</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-primary px-4 {{ ($title === 'Blog' ? 'active' : '') }}" href="/blog">Login</a>
+                    <a class="btn btn-primary px-4 {{ ($title === 'Blog' ? 'active' : '') }}" href="/login">Login</a>
                 </li>
             </ul>
         </div>
