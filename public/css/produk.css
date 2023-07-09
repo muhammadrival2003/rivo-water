@@ -19,13 +19,13 @@
     font: 800 1.875rem/2.25rem Poppins, sans-serif;
     letter-spacing: 0.05em;
     margin-bottom: 0.75rem;
-    color: #cbcbd2;
+    color: #36517C;
 }
 
 .content-3-7 .caption-text {
     font: 400 1rem/1.5rem Poppins, sans-serif;
     letter-spacing: 0.025em;
-    color: #8e8fad;
+    color: #36517C;
     margin-bottom: 0;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .content-3-7 .card-item-outline {
-    border: 1px solid #e5ebf9;
+    border: 1px solid #36517C;
     padding: 2rem 2.75rem;
     border-radius: 1rem;
 }

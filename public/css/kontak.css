@@ -1,0 +1,45 @@
+.kontak{
+    padding: 0px 150px 0px 150px;
+}
+
+
+/* Mobile */
+.buttonKe01{
+    margin-top: 100px;
+}
+
+.button-88 {
+    margin: 10px;
+    padding: 5px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #4c4c6d;
+    border-radius: 20px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #cbcbd2;
+    /* background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%); */
+    background: #cbcbd2;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.button-88:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #cbcbd2;
+    text-decoration: none;
+}
+
+.button-88:active {
+    transform: scale(0.95);
+}

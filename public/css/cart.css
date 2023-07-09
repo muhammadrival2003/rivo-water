@@ -1,0 +1,148 @@
+.card-cart {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.card .title-cart {
+    font-family: 'Jost', sans-serif;
+    font-size: 2rem;
+    color: #36517C;
+}
+
+.card-body .textLine{
+    font-family: 'Jost', sans-serif;
+    color: #36517C;
+}
+
+/* BUTTON */
+/* < !-- HTML !--><button class="button-87" role="button">Button 87</button> */
+.button-87 {
+    margin: 10px;
+    padding: 5px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #fff;
+    border-radius: 20px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #87CEEB;
+    background-image: linear-gradient(45deg, #36517C 0%, #87CEEB 51%, #36517C 100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.button-87:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #36517C;
+    text-decoration: none;
+}
+
+.button-87:active {
+    transform: scale(0.95);
+}
+
+/* Input Counter */
+.qty .hitung {
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0px 2px;
+    min-width: 75px;
+    text-align: center;
+}
+
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: #4c4c6d;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial, sans-serif;
+    text-align: center;
+    border: 1px solid #4c4c6d;
+    border-radius: 7px;
+    /*border-radius: 50%;
+    */
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: #4c4c6d;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial, sans-serif;
+    text-align: center;
+    border: 1px solid #4c4c6d;
+    border-radius: 7px;
+    /* border-radius: 50%;
+    background-clip: padding-box; */
+}
+
+.minus:hover {
+    background-color: #717fe0 !important;
+}
+
+.plus:hover {
+    background-color: #717fe0 !important;
+}
+
+/*Prevent text selection*/
+span {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+input {
+    border: 0;
+    width: 2%;
+}
+
+nput::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:disabled {
+    /* background-color: #36517C; */
+}
+
+
+
+/* Mobile L */
+@media (max-width: 425px) {
+    .card .card-title {
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+
+    .card .price {
+        font-size: 13px;
+    }
+
+    .card .inputAddress {
+        font-size: 10px;
+    }
+}

@@ -20,21 +20,48 @@ Route::get(
     }
 );
 
-Route::get('/', function () {
-    return view('beranda', [
-        "title" => "Beranda",
+Route::get(
+    '/produk',
+    function () {
+        return view('produk');
+    }
+);
+
+Route::get(
+    '/login',
+    function () {
+        return view('auth.login');
+    }
+);
+
+Route::get('/kontak', function () {
+    return view('kontak', [
+        "title" => "Kontak",
         "image" => "Klinik.jpg"
     ]);
 });
 
-Route::get('/login', function () {
-    return view('login', [
-        "title" => "Login",
-        "image" => "Klinik.jpg"
+Route::get('/kontakMobile1', function () {
+    return view('kontakMobile1', [
+        "title" => "Kontak"
     ]);
 });
 
+Route::get('/kontakMobile2', function () {
+    return view('kontakMobile2', [
+        "title" => "Kontak"
+    ]);
+});
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
+
+// Route::get('/cart', [App\Http\Controllers\CartController::class, 'index']);
+Route::resource('/carts', App\Http\Controllers\CartController::class);
+
+Route::resource('/dashboard', App\Http\Controllers\DashboardController::class);
+
+Route::resource('/user', App\Http\Controllers\UserDashboardController::class);
+
+

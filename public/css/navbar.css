@@ -1,12 +1,36 @@
-.navbar-brand{
-    color: #cbcbd2;
+.toggler-icon{
+    color: #fff;
 }
 
-.nav-link{
-    font: 400 1rem Poppins, sans-serif; 
-    color: #cbcbd2;
+.navbar-brand {
+    color: #fff;
 }
 
-.nav-item .btn{
-    font: 600 1rem Poppins, sans-serif; 
+.nav-link {
+    font: 400 1rem Jost, sans-serif;
+    color: #fff;
 }
+
+.nav-item .login{
+    background-color: #87CEEB;
+    color: #111;
+    font-weight: 600;
+    border: 2px solid #87CEEB;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.nav-item .register{
+    color: #87CEEB;
+    font-weight: 600;
+    border: 2px solid #87CEEB;
+    border-radius: 10px;
+}
+
+.nav-item .btn {
+    font: 600 1rem Jost, sans-serif;
+}
+

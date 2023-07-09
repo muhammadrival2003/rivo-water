@@ -1,30 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&family=Jost:wght@500&display=swap');
+
 body{
-    background-color: #141432;
+    background-color: #36517C;
     /* background-image: url('../img/Klinik.jpg'); */
 }
 
 /* Header */
 h1{
-    font: 600 3.5rem Poppins, sans-serif; 
+    font: 600 3.5rem Jost, sans-serif; 
     line-height: 1.2;
-    color: #cbcbd2;
+    color: #fff;
+}
+
+.headLine2{
+    font: 500 1.1rem Jost, sans-serif; 
+    /* font-family: 'Jost', sans-serif; */
+    color: #AFB9CB;
 }
 
 h1 span{
-    color: #fb6262;
-}
-
-.btnHeader{
-    font: 600 1rem Poppins, sans-serif; 
+    color: #87CEEB;
 }
 
 .btnHeader1{
-    font: 300 1rem Poppins, sans-serif; 
-    color: #cbcbd2;
+    background-color: #87CEEB;
+    color: #111;
+    font: 300 1rem Jost, sans-serif;
+    border: none;
+}
+
+.btnHeader1:hover{
+    color: #fff;
+    border: solid 1px #fff;
 }
 
 .imgHeader img{
-    border: solid 3px #4c4c6d;
+    border: solid 5px #fff;
 }
 
 .imgHeader h6{
@@ -37,12 +48,15 @@ h1 span{
 
 /* Tentang Produk */
 .tentang-produk{
-    margin-top: 150px;
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 120px;
+    padding: 100px 100px;
 }
 
 .headline-tentang span{
-    color: #141432;
-    background-color: #fb6262;
+    color: #fff;
+    background-color: #36517C;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -53,30 +67,31 @@ h1 span{
 
 h2{
     font: 600 2.2rem Poppins, sans-serif; 
-    color: #cbcbd2;
+    color: #36517C;
 }
 
-.card{
-    background-color: #292952;
+.card-tentang{
+    background-color: #36517C;
     border: solid 1px #4c4c6d;
 }
 
-.card h5{
-    font: 600 1.5rem Poppins, sans-serif; 
+.title-tentang{
+    font: 600 2.2rem Jost, sans-serif; 
     color: #fff;
 }
 
 .card p{
-    font: 400 1rem Poppins, sans-serif; 
-    color: #707092;
+    font: 400 0.8rem Poppins, sans-serif; 
+    color: #AFB9CB;
 }
 
 /* .card p small{
-    color: #fb6262;
+    color: #87CEEB;
 } */
 
 .card .linkTentang{
-    color: #fb6262;
+    color: #87CEEB;
+    text-decoration: none;
 }
 
 /* End Tentang Produk */
